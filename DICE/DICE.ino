@@ -50,30 +50,23 @@ void off()
 }
 void shuffle()
 {
-  one();
-  delay(90);
   off();
-  delay(90);
-  two();
+  delay(500);
+  digitalWrite(12, HIGH);
   delay(100);
-  off();
+  digitalWrite(6, HIGH);
+  digitalWrite(8, HIGH);
   delay(100);
-  three();
+  digitalWrite(10, HIGH);
   delay(100);
-  off();
+  digitalWrite(12, LOW);
   delay(100);
-  four();
+  digitalWrite(8, LOW);
+  digitalWrite(6, LOW);
   delay(100);
-  off();
-  delay(100);
-  five();
-  delay(100);
-  off();
-  delay(100);
-  six();
-  delay(100);
-  off();
-  delay(100);
+  digitalWrite(10, LOW);
+  delay(300);
+
   
 }
 
