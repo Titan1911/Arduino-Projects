@@ -33,7 +33,7 @@ void setup() {
   {
     six();
   }
-  delay(3000);
+  delay(10000);
   
 
 }
